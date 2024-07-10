@@ -57,7 +57,7 @@ public class AuthorizationController {
         }
 
         artCollectorService.saveArtCollector(artCollector);
-        return "redirect:/art-collector-registration?success";
+        return "redirect:/register?success";
     }
 
     @GetMapping("/artCollectors")
