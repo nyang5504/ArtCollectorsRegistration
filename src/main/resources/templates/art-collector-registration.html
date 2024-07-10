@@ -34,11 +34,11 @@
                 <form method="post" role="form" th:action="@{/register/save}" th:object="${artCollector}">
 
                     <div class="form-group mb-3">
-                        <label class="form-label">First Name</label>
+                        <label class="form-label">Username</label>
                         <input class="form-control"
                                id="username"
                                name="username"
-                               placeholder="Enter first name"
+                               placeholder="Enter username"
                                th:field="*{username}"
                                type="text"
                         />
